@@ -24,3 +24,19 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.modalCss .modal-wrapper {
+
+    width: 90vw;
+    height: 80vh;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 25px rgb(255, 255, 255);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    position: absolute;
+    z-index: 2;
+}
